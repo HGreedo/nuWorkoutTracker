@@ -1,0 +1,23 @@
+{
+  "name": "workout_tracker_app",
+  "version": "1.0.0",
+  "description": "a Workout tracker created by Harrison Reed",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "author": "Harrison Reed",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HGreedo/17workout.tracker.git"
+  }
+}
